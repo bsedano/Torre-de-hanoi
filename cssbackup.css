@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/bg.jpg);
+}
+
+
+.header {
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container {display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+
+.header h1 {
+    font-family: Inter;
+    color: chartreuse;
+    font-size: 50px;
+    text-shadow: black 2px 2px 10px;
+} 
+
+
+#restart {padding: 10px;
+background-color: chartreuse;
+border: none;
+border-radius: 10px;
+color: black;
+font-size: 15px;
+font-family: Inter;
+margin-bottom: 20px;}
+
+#restart:hover {cursor: pointer;}
+
+
+
+.tower {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 60%;
+    background: chartreuse;
+    width: 50px;
+    border-radius: 10px 10px 0px 0px;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+
+}
+.tower:hover {cursor: pointer;}
+
+.hanoi {
+    display: flex;
+    
+    height: 80vh;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.bigDisk {
+    height: 50px;
+    width: 300px;
+    background-color: chocolate;
+    border-radius: 10px 10px;
+    border: 1px solid black;
+}
+
+.bigDisk:hover {cursor: pointer;}
+
+.midDisk {
+    height: 50px;
+    width: 250px;
+    background-color: goldenrod;
+    border-radius: 10px 10px;
+    border: 1px solid black;
+}
+
+.midDisk:hover {cursor: pointer;}
+
+.smallDisk {
+    height: 50px;
+    width: 200px;
+    background-color:yellow;
+    border-radius: 10px 10px;
+    border: 1px solid black;
+}
+.smallDisk:hover {cursor: pointer;}
+
+
+.biggerDisk {
+    height: 50px;
+    width: 350px;
+    background-color:orangered;
+    border-radius: 10px 10px;
+    border: 1px solid black;
+}
+
+.biggerDisk:hover {cursor: pointer;}
+
+
+
